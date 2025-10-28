@@ -12,7 +12,7 @@ genai.configure(api_key="AIzaSyBS0gcokMgWfQPJgqhPlBFW1AxQrNdlTC8")
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 # 🎨 Streamlit config
-st.set_page_config(page_title="AI Toxicity Analyzer", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="Toxicity Analyzer", page_icon="🤖", layout="wide")
 
 st.title("Toxic Comment Detection System")
 st.write("Analyze any Hindi/English/Hinglish text across six toxicity dimensions.")
