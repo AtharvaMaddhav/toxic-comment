@@ -15,7 +15,7 @@ model = genai.GenerativeModel("gemini-2.5-flash")
 st.set_page_config(page_title="AI Toxicity Analyzer", page_icon="🤖", layout="wide")
 
 st.title("Toxic Comment Detection System")
-st.write("Analyze any text across six toxicity dimensions using **Google Gemini AI**.")
+st.write("Analyze any Hindi/English/Hinglish text across six toxicity dimensions.")
 
 # 📥 Input box
 content = st.text_area("Enter text to analyze:", height=150, placeholder="Type or paste text here...")
